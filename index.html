@@ -6,9 +6,18 @@
     <title>Document</title>
     <link rel="icon" href="logo.png" type="png/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <script src=".script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./chart.js"></script>
+    <script src="./script.js"></script>
+   
 </head>
-<body>
-    
+<body onload="init()">
+<h1>Bitcoin-Kurs</h1>
+<p>Der aktuelle Bitcoinkurs beträgt:</p>
+<p id="price"></p>
+<div>
+    <canvas id="myChart"></canvas>
+  </div>
+
 </body>
 </html>
